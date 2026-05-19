@@ -1,9 +1,17 @@
--- add the intro animation
--- figure out how to load apps
-DONE!
--- make a settings app (probably just some commands in the terminal... oh yeah, also make the terminal lol)
--- figure out parsing in terminal (and maybe reuse some of that knowledge or code to create a calculator)
+-- add the intro animation // tackling
+
+-- figure out how to load apps and make a simple test app (maybe just a blank screen and some text) 
+
+-- make a settings app (probably just some commands in the terminal... oh yeah, also make the terminal lol) // next up
+
+-- figure out parsing in terminal (and maybe reuse some of that knowledge or code to create a calculator) // next up
+
 -- make a calculator app (already have the file waiting in m_system/apps)
-DONE!
--- add a crash screen (with a blue screen of death and a sad trombone sound effect)
--- add a shutdown animation (maybe just the logo fading out?)
+
+-- make a text editor app (also already have the file waiting in m_system/apps)
+
+-- maybe an mspaint clone?????????? // optional, but would be a fun project and a good way to learn more about handling mouse input and drawing
+
+-- add a crash screen (with a blue screen of death and a sad trombone sound effect) // in progress
+
+-- add a shutdown animation (maybe just the logo fading out?) // in progress
