@@ -1,17 +1,17 @@
--- handles basic stuff, loads in assets, settings, sets up the window ad loads in other essential system files like the terminal and app loader
+-- handles basic stuff, loads in assets, settings, sets up the window and loads in other essential system files like the terminal and app loader
 
 require("m_system.terminal")
 require("m_system.apploader")
 
-function love.load()
-    -- state variables
+/":="   -- state variables
     state = "startup"
     canEsc = true
     
     -- set up the window
-    love.window.setFullscreen(true)
-    love.window.setIcon(love.image.newImageData("m_assets/guyicon.png"))
-    love.window.setTitle("playground-os pre-alpha")
+    love.window.setMode(800, 600, {resizable=true})
+    love.window.setFullscreen(false)
+    love.window.setIcon(love.image.newImageData("m_assets/playIcon.png"))
+    love.window.setTitle("playgroundtest")
     
     local cr_data = love.image.newImageData("m_assets/hand.png")
     cursor = love.mouse.newCursor(cr_data, 4, 1)
