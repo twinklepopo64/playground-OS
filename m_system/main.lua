@@ -12,7 +12,7 @@ function love.load()
     love.window.setMode(800, 600, {resizable=true})
     love.window.setFullscreen(false)
     love.window.setIcon(love.image.newImageData("m_assets/icon.png"))
-    love.window.setTitle("playground-os pre alpha")
+    love.window.setTitle("playground-os pre alpha v1")
     
     local cr_data = love.image.newImageData("m_assets/hand.png")
     cursor = love.mouse.newCursor(cr_data, 4, 1)
